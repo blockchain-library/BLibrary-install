@@ -6,7 +6,7 @@ COIN_DAEMON='/usr/local/bin/blibraryd'
 COIN_CLI='/usr/local/bin/blibrary-cli'
 COIN_REPO='https://github.com/blockchain-library/BLibrary/releases/download/v1.0.0.2/mn-ubuntu.tar.gz'
 COIN_NAME='blibrary'
-COIN_PORT=36000
+COIN_PORT=33600
 RPC_PORT=48000
 
 

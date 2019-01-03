@@ -4,7 +4,7 @@ CONFIG_FILE='blibrary.conf'
 CONFIGFOLDER='/root/.blibrary/'
 COIN_DAEMON='/usr/local/bin/blibraryd'
 COIN_CLI='/usr/local/bin/blibrary-cli'
-COIN_REPO='https://github.com/blockchain-library/BLibrary/releases/download/v1.0.1.5/BLibrary-Daemon.v1.0.1.5.tar.gz'
+COIN_REPO='https://github.com/blockchain-library/BLibraryCore/releases/download/v2.0.0.1/masternode.tar.gz'
 COIN_NAME='blibrary'
 COIN_PORT=33600
 RPC_PORT=48000
@@ -126,8 +126,16 @@ masternode=1
 #externalip=$NODEIP:$COIN_PORT
 masternodeaddr=$NODEIP
 masternodeprivkey=$COINKEY
-addnode=184.170.142.57
-addnode=37.1.208.243
+addnode=10.20.1.237
+addnode=185.125.231.196
+addnode=193.32.12.40
+addnode=80.208.224.28
+addnode=176.223.143.182
+addnode=80.208.224.28
+addnode=76.95.94.248
+addnode=194.67.198.115
+addnode=185.125.231.196
+addnode=103.73.226.165
 EOF
 }
 
